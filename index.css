@@ -1,0 +1,14 @@
+.letrass {
+  width: 100px;
+  height: 100px;
+  background: #fafafa;
+  font-size: 80px;
+  color: #1b1818;
+  cursor: pointer;
+  text-align: center;
+}
+.linhas {
+  background: #000066;
+  margin-left: auto;
+  margin-right: auto;
+}
