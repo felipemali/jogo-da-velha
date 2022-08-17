@@ -25,17 +25,15 @@ function test() {
       alert("(X) GANHOU");
       limpa();
     }
-
-    console.log(caixasElements.join(""));
   }
 }
 
 function limpa() {
   const caixas = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-  for (caixa of caixas) {
-    document.getElementById(`caixa${caixa}`).innerHTML = "";
-  }
+  caixas.map(
+    (caixa) => (document.getElementById(`caixa${caixa}`).innerHTML = "")
+  );
 }
 
 letra = "X";
